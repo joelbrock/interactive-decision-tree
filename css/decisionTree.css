@@ -39,7 +39,7 @@ a:hover{
 	padding: 0;
 	background: #FFA;
 	width: 750px;
-	height: 500px;
+	height: auto;
 	overflow: hidden;
 }
 #tree-slider{

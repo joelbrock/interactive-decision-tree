@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<tree><title>Monitoring Report Decision Tree</title><description>Decision Tree for Acting on Internal Monitoring Reports from the General Manager</description><branch id="1.1"><content>Is the Operational Definition/ Interpretation reasonable?</content><fork target="1.1.1">Yes</fork><fork target="1.1.2">No</fork></branch><branch id="1.2"><content>Reschedule the item for the next meeting. See board process and / or board-gm relations policies.</content></branch><branch id="1"><content>Are you prepared to act?</content><fork target="1.1">Yes</fork><fork target="1.2">No</fork></branch><branch id="1.1.1"><content/></branch><branch id="1.1.2"><content>Not Accepted - Board discusses Severity, Implications and Trends (SIT)&#xD;
+&#xD;
+Board considers a range of responses depending on SIT:&#xD;
+* Request information&#xD;
+* Schedule additional follow-up monitoring&#xD;
+* Increase frequency of monitoring&#xD;
+* Consequences for the GM.&#xD;
+&#xD;
+Did the board decide to impose consequences on the GM?</content><fork target="1.1.2.1">Yes</fork><fork target="1.1.2.2">No</fork></branch><branch id="1.1.2.1"><content/></branch><branch id="1.1.2.2"><content>Accepted with acknowledgement of non-compliance.&#xD;
+&#xD;
+Monitoring process is complete. Document the Board's decisions in the meeting minutes.&#xD;
+&#xD;
+Policy Reflection: Is this the policy we want?</content><fork target="1.1.2.2.1">Yes</fork><fork target="1.1.2.2.2">No</fork></branch><branch id="1.1.2.2.1"><content>Finished&#xD;
+You are so awesome.  Have some cake!</content></branch><branch id="1.1.2.2.2"><content>Assess the Policy&#xD;
+Schedule time on a future agenda to discuss this policy.</content></branch><revision>xml/tree1522259840.xml.1522259889</revision><revision>xml/tree1522259840.xml.1522259914</revision><revision>xml/tree1522259840.xml.1522259949</revision><revision>xml/tree1522259840.xml.1522259999</revision><revision>xml/tree1522259840.xml.1522260036</revision><revision>xml/tree1522259840.xml.1522260053</revision><revision>xml/tree1522259840.xml.1522260072</revision></tree>

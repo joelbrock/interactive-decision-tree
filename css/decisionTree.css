@@ -9,16 +9,22 @@ a{
  cursor: pointer;
  color: #666;
 }
-a:hover{
-	text-decoration: underline;
+.decision-links a:hover{
+/*	text-decoration: underline;
+*/	background: #eee;
+	color: #999;
 }
 .decision-links a{
- margin-right: 1em;
- padding-right: 1em;
- border-right: 1px solid #666;
+	color:#eee;
+	border: 3px solid #666;
+	background-color: #666;
+	font-size: 1.3em;
+	padding: 4px 20px 4px 20px; 
+	margin-right: 20px;
 }
 .decision-links a.last-child{
-	border: none;
+/*	border: none; 
+*/
 }
 
 #debug{

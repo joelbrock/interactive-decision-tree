@@ -45,7 +45,7 @@ a {
 	width: 450px;
 	height: auto;
 	overflow: hidden;
-	border: 1px red solid;
+/*	border: 1px red solid;*/
 }
 #tree-slider{
 	margin: 0;

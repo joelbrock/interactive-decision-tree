@@ -42,9 +42,10 @@ a {
 	margin: 0;
 	padding: 0;
 /*	background: #FFA;*/
-	width: 550px;
+	width: 450px;
 	height: auto;
 	overflow: hidden;
+	border: 1px red solid;
 }
 #tree-slider{
 	margin: 0;
@@ -56,7 +57,7 @@ a {
 	margin: 0;
 	padding: 15px;
 	float: left;
-	width: 520px;
+	width: 420px;
 /*	font-size: 2em;*/
 }
 .decision-links{
@@ -71,4 +72,30 @@ a {
 	margin-top: 2em;
 	font-size: 0.7em;
 	border: none;
+}
+
+
+/*@media (min-width: 576px) { ... }*/
+
+@media (min-width: 768px) { 
+	body { 
+/*		font-size: 80%;*/
+	}
+	#tree-window {
+		width: 750px;
+	}
+	.tree-content-box {
+		width: 720px;
+	}
+}
+
+/*@media (min-width: 992px) { ... }*/
+
+@media (min-width: 1200px) {  
+	#tree-window {
+		width: 900px;
+	}
+	.tree-content-box {
+		width: 870px;
+	}
 }

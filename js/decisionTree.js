@@ -89,7 +89,7 @@ function showBranch( id ){
 		if( forkContent.indexOf('http://') == 0 || forkContent.indexOf('https://') == 0 ){
 			link = 'href="' + forkContent + '"'
 		}
-		decisionLinksHTML += '<a ' + link + ' id="' + currentBranch.forkIDs[d] + '">' + currentBranch.forkLabels[d] + '</a>';
+		decisionLinksHTML += '<a ' + link + ' id="' + currentBranch.forkIDs[d] + '" class="btn btn-outline-primary">' + currentBranch.forkLabels[d] + '</a>';
 	}
 	decisionLinksHTML += '</div>';
 	var branchHTML = '<div id="branch-' + currentBranch.id + '" class="tree-content-box"><div class="content">' + currentBranch.content + '</div>' + decisionLinksHTML;

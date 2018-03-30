@@ -15,17 +15,24 @@ a {
 	cursor: pointer;
 }
 
-.decision-links a:hover{ }
+h2 {
+	font-size: 1.3em;
+	font-weight: 600;
+}
+
+img {
+	width: 280px;
+}
 
 .decision-links a{
 	font-size: 1.4em; 
 	padding: 4px 20px 4px 20px;
 	margin-right: 20px;
 }
-.decision-links a.last-child{
-/*	border: none; 
-*/
-}
+
+.decision-links a:hover{ }
+
+.decision-links a.last-child{ }
 
 #debug{
 /*	position: absolute;
@@ -41,32 +48,32 @@ a {
 #tree-window{
 	margin: 0;
 	padding: 0;
-/*	background: #FFA;*/
-	width: 450px;
+	width: 310px;
 	height: auto;
 	overflow: hidden;
-/*	border: 1px red solid;*/
 }
+
 #tree-slider{
 	margin: 0;
 	padding: 0;
 	height: 600px;
 	width: 2000px;
 }
+
 .tree-content-box{
 	margin: 0;
 	padding: 15px;
 	float: left;
-	width: 420px;
-/*	font-size: 2em;*/
+	width: 280px;
 }
+
 .decision-links{
 	margin-top: 1em;
 	padding-top: 1em;
 	border-top: 1px solid #666;
 	text-align: center;
-/*	font-size: 0.5em;*/
 }
+
 .back-link{
 	display: block;
 	margin-top: 2em;
@@ -78,8 +85,8 @@ a {
 /*@media (min-width: 576px) { ... }*/
 
 @media (min-width: 768px) { 
-	body { 
-/*		font-size: 80%;*/
+	h2 {
+		font-size: 1.5em;
 	}
 	#tree-window {
 		width: 750px;
@@ -87,11 +94,16 @@ a {
 	.tree-content-box {
 		width: 720px;
 	}
+	img {
+		width: 700px;
+	}
+	
 }
 
-/*@media (min-width: 992px) { ... }*/
-
-@media (min-width: 1200px) {  
+@media (min-width: 992px) {
+	h2 {
+		font-size: 2em;
+	}
 	#tree-window {
 		width: 900px;
 	}
@@ -99,3 +111,5 @@ a {
 		width: 870px;
 	}
 }
+
+/*@media (min-width: 1200px) {*/
